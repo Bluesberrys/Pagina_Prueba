@@ -1,0 +1,17 @@
+header {
+  background-color: red;
+  color: #fff;
+}
+
+section {
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.navbar-nav a {
+  color: #fff !important;
+}
+
+.dropdown-menu {
+  background-color: #444;
+}
