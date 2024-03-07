@@ -48,10 +48,12 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./home.html">Features</a>
+              <a class="nav-link" href="#">Features</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Pricing</a>
@@ -79,6 +81,54 @@
       </div>
     </nav>
 
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./img/cruising apollo-isaac.png"
+            class="d-block w-100"
+            alt="..."
+            height="400"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./img/felix-blue flirting.png"
+            class="d-block w-100"
+            alt="..."
+            height="400"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./img/blue werefox_base_night.png"
+            class="d-block w-100"
+            alt="..."
+            height="400"
+            width=""
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
     <section class="main row">
       <article class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
         <h3>los cursos mencionados</h3>
@@ -98,6 +148,45 @@
           Dignissimos voluptas debitis consectetur!
         </p>
       </aside>
+      <div class="container">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Check me out</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
     </section>
 
     <div class="main row">
